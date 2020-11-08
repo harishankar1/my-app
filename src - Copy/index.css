@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+.contentdata{
+  /* height: 740px;
+  background-color: white;
+  font-size: 15px; */
+  width: 70%;
+  margin: 27px auto 10px auto;
+  padding: 20px;
+  /* background:white; */
+  height: 700px;
+  /* border-radius: 25px; */
+
+} 
+
+/* .ant-layout-footer , .ant-layout-header{
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+} */
+.ant-layout-footer , .ant-layout-header{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+/* .mainDiv{
+  display: flex;
+  padding: 24px;
+} */
+
+.logo{
+  float: left;
+  font-weight: 700;
+  color: #d23ad6;
+  /* width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3); */
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+  float: right;
+  margin: 0px 235px 0px 0;
+  background-color: white;
+  color: black;
+}
+
+.ant-menu-submenu{
+  color: black;
+}
+.ant-layout{
+  background-color: #d23ad6;
+}

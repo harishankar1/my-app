@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+}
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+.contentdata{
+  width: 70%;
+  margin: 100px auto 10px auto;
+  padding: 20px;
+  height: 600px;
+} 
+
+.ant-layout-footer , .ant-layout-header{
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo{
+  float: left;
+  font-weight: 700;
+  color: #d23ad6;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+  float: right;
+  margin: 0px 235px 0px 0;
+  background-color: white;
+  color: black;
+}
+
+.ant-menu-submenu{
+  color: black;
+}
+.ant-layout{
+  background-color: #d23ad6;
+}
+.novalue{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -50px;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  color: #ced3db;
+}
+.chdata ul{
+  list-style-type: none;
+
+}
+.chdata li{
+  margin-bottom: 19px;
+  /* margin: auto; */
+  background: #E4E4E4;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+.chdata ul li:hover {
+  background-color: #eb2f96;
+  cursor: pointer;
+}
+.chdata .close:hover {color: red;}
+.chdata .close {
+  cursor: pointer;
+  position: absolute;
+  /* top: 17%; */
+  font-size: 20px;
+  right: 4%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+}
+.chdata .span1{
+  margin-left: 33px;
+  font-weight: bolder;
+  color: #a59b9b;
+  padding: 7px 4px 6px 6px;
+  font-size: 20px;
+}
+/* add new */
+.ant-tree-node-content-wrapper .ant-tree-node-content-wrapper-open .ant-tree-title{
+
+  font-size: 10px;
+
+}
